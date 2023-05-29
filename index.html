@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de La Costa</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans:wght@600&family=Schibsted+Grotesk&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()" id="icon1"></i>
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Donaciones</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()" id="icon2"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Bienvenidos a la casa de La Costa</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quibusdam ipsum facere tempore
+                eligendi! Hic, ipsa reiciendis nulla doloremque esse quasi exercitationem repudiandae qui reprehenderit
+                corporis possimus neque soluta laboriosam.</p>
+            <a href="" class="hero-btn">Contáctanos para saber más</a>
+        </div>
+
+    </section>
+    <!--donations-->
+    <section class="donaciones">
+        <h1>Nosotros</h1>
+        <p>Somos 11 estudiantes, residentes de La Costa estudiando carreras de grado, profesorados o tecnicaturas en La
+            Plata con el objetivo de recibirnos.</p>
+        <div class="row">
+            <div class="row-col">
+                <h3>Donaciones</h3>
+                <p>El dinero de las donaciones se utilizara para hacer todo tipo de arreglos estructurales que necesita
+                    la casa como membranas para los techos, perdidas de las cañerias, revoque del cielo razo. Tu ayuda
+                    es muy agradecida ❤</p>
+            </div>
+            <div class="row-col">
+                <h3>Historia de la Casa </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ullam optio ratione aperiam minima
+                    quam! Nihil fugiat sit corrupti quasi laborum quam quis minus nulla totam inventore facilis,
+                    nesciunt laudantium.</p>
+            </div>
+            <div class="row-col">
+                <h3>Contacto</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ullam optio ratione aperiam minima
+                    quam! Nihil fugiat sit corrupti quasi laborum quam quis minus nulla totam inventore facilis,
+                    nesciunt laudantium.</p>
+            </div>
+
+    </section>
+    <!-- ----casa---- -->
+    <section class="casa">
+        <h1>La casa</h1>
+        <p>Este es el lugar donde vivimos.</p>
+    </section>
+    <div class="slider">
+        <div class="casa-col">
+            <img id="img-1" src="patio1.jpg">
+        </div>
+        <div class="casa-col">
+            <img id="img-2" src="patio2.jpg">
+        </div>
+        <div class="casa-col">
+            <img id="img-3" src="patio3.jpg">
+        </div>
+        <div class="navigation-button">
+            <span class="dot active" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
+        </div>
+    </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+
+</html>
