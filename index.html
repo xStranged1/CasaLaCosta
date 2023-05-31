@@ -13,6 +13,10 @@
         href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans:wght@600&family=Schibsted+Grotesk&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans:wght@600&family=Schibsted+Grotesk&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -62,26 +66,57 @@
             </div>
         </div>
     </section>
-    <section class="casa">
+    <section class="titleCasa">
         <h1>La casa</h1>
         <p>Este es el lugar donde vivimos</p>
-        <!-- <div class="slider">
-            <div class="casa-col">
-                <img id="img-1" src="patio1.jpg">
-            </div>
-            <div class="casa-col">
-                <img id="img-2" src="patio2.jpg">
-            </div>
-            <div class="casa-col">
-                <img id="img-3" src="patio3.jpg">
-            </div>
-            <div class="navigation-button"> -->
-        <span class="dot active" onclick="changeSlide(0)"></span>
-        <span class="dot" onclick="changeSlide(1)"></span>
-        <span class="dot" onclick="changeSlide(2)"></span>
-        </div>
-        </div>
     </section>
+    <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="carousel-caption">
+                    <h3>Sala de estudio</h3>
+                    <p>Aca pasamos la tarde estudiamos blabla</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="carousel-caption">
+                    <h3>Patio externo </h3>
+                    <p>En este lugar se toma sol, se descansa y se toma mate</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="carousel-caption">
+                    <h3>Cocina</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="carousel-caption">
+                    <h3>Cuarto slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="carousel-caption">
+                    <h3>Quinto slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carouselFade" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carouselFade" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
     <section class="donaciones">
         <h1>Donaciones</h1>
         <p>Las donaciones pueden ser a través de Mercado Pago, o transferencia bancaria<br>Para la donación de muebles o
@@ -102,7 +137,7 @@
     </section>
     <footer>
         <div class="container">
-            <div class="styledcontainer">
+            <div class=" styledcontainer">
                 <div class="title">
                     <h3>ENCONTRANOS:</h3>
                 </div>
@@ -122,6 +157,10 @@
     </footer>
     </section>
     <script src="code.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -37,3 +37,4 @@ if (n != undefined) {
     timer = setInterval(changeSlide, interval);
     currentImg = n;
 }
+$('#carouselFade').carousel();
