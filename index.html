@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa de La Costa</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,36 +22,34 @@
                 <i class="fas fa-times" onclick="hideMenu()" id="icon1"></i>
                 <ul>
                     <li><a href="">Inicio</a></li>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">Donaciones</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li><a href="#nosotros-section">Nosotros</a></li>
+                    <li><a href="https://link.mercadopago.com.ar/casadelacosta">Donaciones</a></li>
+                    <li><a href="https://linktr.ee/casadestudiantesdelacostalp">Contacto</a></li>
                 </ul>
             </div>
             <i class="fas fa-bars" onclick="showMenu()" id="icon2"></i>
         </nav>
         <div class="text-box">
             <h1>Bienvenidos a la casa de La Costa</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quibusdam ipsum facere tempore
-                eligendi! Hic, ipsa reiciendis nulla doloremque esse quasi exercitationem repudiandae qui reprehenderit
-                corporis possimus neque soluta laboriosam.</p>
+            <p>Ubicada en Calle 43 n°1020 entre calle 15 y 16, es una casa destinada a que estudiantes residentes del
+                partido de La Costa, puedan estudiar y transitar su vida universitaria en la ciudad de La Plata.</p>
             <a href="" class="hero-btn">Contáctanos para saber más</a>
         </div>
-
     </section>
-    <!--donations-->
-    <section class="donaciones">
+    <section class="donaciones" id="nosotros-section">
         <h1>Nosotros</h1>
-        <p>Somos 11 estudiantes, residentes de La Costa estudiando carreras de grado, profesorados o tecnicaturas en La
-            Plata con el objetivo de recibirnos.</p>
+        <p>Somos 11 estudiantes, residentes de La Costa.<br> Tenemos como objetivo profesionalizarnos, y esta casa,
+            ubicada en la plata, nos abrió las puertas a poder estudiar, para en un futuro poder profesionalizarnos y
+            cumplir el sueño de ejercer nuestra carrera.</p>
         <div class="row">
             <div class="row-col">
-                <h3>Donaciones</h3>
-                <p>El dinero de las donaciones se utilizara para hacer todo tipo de arreglos estructurales que necesita
-                    la casa como membranas para los techos, perdidas de las cañerias, revoque del cielo razo. Tu ayuda
-                    es muy agradecida ❤</p>
+                <h3>¿Para qué vamos a usar el dinero de las donaciones?</h3>
+                <p>El dinero de las donaciones se utilizará para hacer todo tipo de arreglos estructurales que necesita
+                    la casa como membranas para los techos, pérdidas de las cañerías, revoque del cielo raso. Tu ayuda
+                    es muy agradecida ❤</p>
             </div>
             <div class="row-col">
-                <h3>Historia de la Casa </h3>
+                <h3>Historia de la Casa</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ullam optio ratione aperiam minima
                     quam! Nihil fugiat sit corrupti quasi laborum quam quis minus nulla totam inventore facilis,
                     nesciunt laudantium.</p>
@@ -62,30 +60,67 @@
                     quam! Nihil fugiat sit corrupti quasi laborum quam quis minus nulla totam inventore facilis,
                     nesciunt laudantium.</p>
             </div>
-
+        </div>
     </section>
-    <!-- ----casa---- -->
     <section class="casa">
         <h1>La casa</h1>
-        <p>Este es el lugar donde vivimos.</p>
+        <p>Este es el lugar donde vivimos</p>
+        <!-- <div class="slider">
+            <div class="casa-col">
+                <img id="img-1" src="patio1.jpg">
+            </div>
+            <div class="casa-col">
+                <img id="img-2" src="patio2.jpg">
+            </div>
+            <div class="casa-col">
+                <img id="img-3" src="patio3.jpg">
+            </div>
+            <div class="navigation-button"> -->
+        <span class="dot active" onclick="changeSlide(0)"></span>
+        <span class="dot" onclick="changeSlide(1)"></span>
+        <span class="dot" onclick="changeSlide(2)"></span>
+        </div>
+        </div>
     </section>
-    <div class="slider">
-        <div class="casa-col">
-            <img id="img-1" src="patio1.jpg">
+    <section class="donaciones">
+        <h1>Donaciones</h1>
+        <p>Las donaciones pueden ser a través de Mercado Pago, o transferencia bancaria<br>Para la donación de muebles o
+            demás bienes, por favor contáctenos.</p>
+        <div class="row">
+            <div class="donaciones-col">
+                <img src="estudiantes.jpg" alt="estudiantes de la costa">
+            </div>
+            <div class="donaciones-col">
+                <img src="estudiantes2.jpg" alt="estudiantes de la costa">
+                <h3>Ayúdanos con tu donación!</h3>
+            </div>
+            <div class="donaciones-col">
+                <img src="estudiantes.jpg" alt="estudiantes de la costa">
+            </div>
         </div>
-        <div class="casa-col">
-            <img id="img-2" src="patio2.jpg">
+    </section>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="styledcontainer">
+                <div class="title">
+                    <h3>ENCONTRANOS:</h3>
+                </div>
+                <div class="iconscontainer">
+                    <a href="https://www.facebook.com/CentrodeEstudiantesLaCosta">
+                        <img src="https://d464899030a712a470caf4c7.azureedge.net/media/2019-05/facebook.svg"
+                            alt="Facebook Logo">
+                    </a>
+                    <a href="https://www.instagram.com/centrodeestudianteslacosta/">
+                        <img src="https://d464899030a712a470caf4c7.azureedge.net/media/2019-05/insta.svg"
+                            alt="Instagram Logo">
+                    </a>
+
+                </div>
+            </div>
         </div>
-        <div class="casa-col">
-            <img id="img-3" src="patio3.jpg">
-        </div>
-        <div class="navigation-button">
-            <span class="dot active" onclick="changeSlide(0)"></span>
-            <span class="dot" onclick="changeSlide(1)"></span>
-            <span class="dot" onclick="changeSlide(2)"></span>
-        </div>
-    </div>
-    </div>
+    </footer>
+    </section>
     <script src="code.js"></script>
 </body>
 

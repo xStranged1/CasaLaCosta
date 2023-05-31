@@ -36,4 +36,4 @@ if (n != undefined) {
     clearInterval(timer);
     timer = setInterval(changeSlide, interval);
     currentImg = n;
-} 
+}
